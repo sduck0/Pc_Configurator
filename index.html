@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PC Config | Конфигуратор ПК</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/dist/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@400;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+</head>
+<body class="cyber-body">
+  <header class="cyber-header sticky-top">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand cyber-logo" href="index.html">
+            <span class="cyber-logo-part">P</span>
+            <span class="cyber-logo-part">C</span>
+            <span class="cyber-logo-cursor">_</span>
+            <span class="cyber-logo-part">C</span>
+            <span class="cyber-logo-part">o</span>
+            <span class="cyber-logo-part">n</span>
+            <span class="cyber-logo-part">f</span>
+            <span class="cyber-logo-part">i</span>
+            <span class="cyber-logo-part">g</span>
+          </a>
+          <button class="navbar-toggler cyber-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCyber">
+            <span class="cyber-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCyber">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="configurator.html">Конфигуратор</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="catalog.html">Каталог</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cart.html">Корзина</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacts.html">Контакты</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="cyber-main">
+    <div class="cyber-hero">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h1 class="cyber-title display-3 mb-4">
+              <span class="cyber-text-gradient">Собери</span> свой 
+              <span class="cyber-text-flicker">идеальный ПК</span>
+            </h1>
+            <p class="cyber-text lead mb-4">
+              Профессиональный конфигуратор для подбора совместимых компонентов с проверкой в реальном времени.
+            </p>
+            <div class="d-flex gap-3">
+              <a href="configurator.html" class="btn btn-cyber-primary btn-lg">Начать сборку</a>
+              <a href="catalog.html" class="btn btn-cyber-outline btn-lg">Каталог комплектующих</a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="cyber-pc-animation">
+              <div class="pc-component cpu"></div>
+              <div class="pc-component gpu"></div>
+              <div class="pc-component ram"></div>
+              <div class="pc-component cooler"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="cyber-features py-5">
+      <div class="container">
+        <h2 class="cyber-section-title text-center mb-5">
+          <span class="cyber-underline">Почему выбирают нас</span>
+        </h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="cyber-feature-card">
+              <div class="cyber-feature-icon">
+                <i class="bi bi-cpu"></i>
+              </div>
+              <h3>Автоподбор компонентов</h3>
+              <p>Умная система подберет совместимые комплектующие автоматически.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="cyber-feature-card">
+              <div class="cyber-feature-icon">
+                <i class="bi bi-shield-check"></i>
+              </div>
+              <h3>Проверка совместимости</h3>
+              <p>Система проверяет совместимость компонентов в реальном времени.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="cyber-feature-card">
+              <div class="cyber-feature-icon">
+                <i class="bi bi-lightning-charge"></i>
+              </div>
+              <h3>Быстрый заказ</h3>
+              <p>Оформление заказа в несколько кликов с доставкой по всей стране.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cyber-builds py-5">
+      <div class="container">
+        <h2 class="cyber-section-title text-center mb-5">
+          <span class="cyber-underline">Популярные сборки</span>
+        </h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="cyber-build-card">
+              <div class="build-badge">Офисный</div>
+              <div class="build-image" style="background-image: url('./assets/images/build-office.jpg')"></div>
+              <div class="build-content">
+                <h3>Базовый офисный ПК</h3>
+                <ul class="build-specs">
+                  <li><i class="bi bi-cpu"></i> Intel Core i3-12100</li>
+                  <li><i class="bi bi-memory"></i> 8GB DDR4 RAM</li>
+                  <li><i class="bi bi-hdd"></i> 256GB SSD</li>
+                  <li><i class="bi bi-gpu-card"></i> Встроенная графика</li>
+                </ul>
+                <div class="build-price">от 1400 BYN</div>
+                <a href="configurator.html?preset=office" class="btn btn-cyber-sm">
+                  <button class="btn btn-cyber">
+                    Собрать
+                </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="cyber-build-card">
+              <div class="build-badge gaming">Игровой</div>
+              <div class="build-image" style="background-image: url('./assets/images/build-gaming.jpg')"></div>
+              <div class="build-content">
+                <h3>Игровой ПК среднего уровня</h3>
+                <ul class="build-specs">
+                  <li><i class="bi bi-cpu"></i> AMD Ryzen 5 5600X</li>
+                  <li><i class="bi bi-memory"></i> 16GB DDR4 RAM</li>
+                  <li><i class="bi bi-gpu-card"></i> GeForce RTX 3060</li>
+                  <li><i class="bi bi-hdd"></i> 1TB SSD</li>
+                </ul>
+                <div class="build-price">от 2800 BYN</div>
+                <a href="configurator.html?preset=gaming" class="btn btn-cyber-sm">
+                  <button class="btn btn-cyber">
+                    Собрать
+                </button>
+                </a>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="cyber-build-card">
+              <div class="build-badge pro">Профессиональный</div>
+              <div class="build-image" style="background-image: url('./assets/images/build-pro.jpg')"></div>
+              <div class="build-content">
+                <h3>Рабочая станция</h3>
+                <ul class="build-specs">
+                  <li><i class="bi bi-cpu"></i> Intel Core i7-13700K</li>
+                  <li><i class="bi bi-memory"></i> 32GB DDR4 RAM</li>
+                  <li><i class="bi bi-gpu-card"></i> GeForce RTX 3070</li>
+                  <li><i class="bi bi-hdd"></i> 2TB SSD</li>
+                </ul>
+                <div class="build-price">от 4500 BYN</div>
+                <a href="configurator.html?preset=workstation" class="btn btn-cyber-sm">
+                  <button class="btn btn-cyber">
+                  Собрать
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="cyber-footer py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4 mb-md-0">
+          <h3 class="footer-logo mb-3">PC Config</h3>
+          <p>Профессиональный конфигуратор ПК с проверкой совместимости компонентов.</p>
+        </div>
+        <div class="col-md-2 mb-4 mb-md-0">
+          <h4 class="footer-title">Навигация</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="configurator.html">Конфигуратор</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="cart.html">Корзина</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-4 mb-md-0">
+          <h4 class="footer-title">Контакты</h4>
+          <ul class="footer-contacts">
+            <li><i class="bi bi-geo-alt"></i> г. Минск, ул. Кижеватова 76</li>
+            <li><i class="bi bi-telephone"></i> +375 (29) 132-96-67</li>
+            <li><i class="bi bi-envelope"></i> info@pcconfig.by</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h4 class="footer-title">Мы в соцсетях</h4>
+          <div class="footer-social">
+            <a href="#"><i class="bi bi-telegram"></i></a>
+            <a href="#"><i class="bi bi-vk"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr class="cyber-divider my-4">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="mb-0">&copy; 2025 PC Config. Все права защищены.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>

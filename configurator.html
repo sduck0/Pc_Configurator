@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PC Config | Конфигуратор ПК</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/dist/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@400;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+</head>
+<body class="cyber-body">
+  <header class="cyber-header sticky-top">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand cyber-logo" href="index.html">
+            <span class="cyber-logo-part">P</span>
+            <span class="cyber-logo-part">C</span>
+            <span class="cyber-logo-cursor">_</span>
+            <span class="cyber-logo-part">C</span>
+            <span class="cyber-logo-part">o</span>
+            <span class="cyber-logo-part">n</span>
+            <span class="cyber-logo-part">f</span>
+            <span class="cyber-logo-part">i</span>
+            <span class="cyber-logo-part">g</span>
+          </a>
+          
+          <button class="navbar-toggler cyber-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCyber">
+            <span class="cyber-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarCyber">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="configurator.html">Конфигуратор</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="catalog.html">Каталог</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cart.html">Корзина</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacts.html">Контакты</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="cyber-main configurator-main">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <h1 class="cyber-title mb-4">
+            <span class="cyber-text-gradient">Конфигуратор</span> ПК
+          </h1>
+          
+          <div class="cyber-configurator">
+            <!-- Процессор -->
+            <div class="configurator-section">
+              <h3 class="section-title">
+                <i class="bi bi-cpu"></i> Процессор
+              </h3>
+              <select id="cpu-select" class="cyber-select">
+                <option value="">Выберите процессор</option>
+                <!-- Опции будут заполнены через JavaScript -->
+              </select>
+              <div class="component-info" id="cpu-info"></div>
+            </div>
+            
+            <!-- Материнская плата -->
+            <div class="configurator-section">
+              <h3 class="section-title">
+                <i class="bi bi-motherboard"></i> Материнская плата
+              </h3>
+              <select id="motherboard-select" class="cyber-select" disabled>
+                <option value="">Сначала выберите процессор</option>
+              </select>
+              <div class="component-info" id="motherboard-info"></div>
+            </div>
+            
+            <!-- Оперативная память -->
+            <div class="configurator-section">
+              <h3 class="section-title">
+                <i class="bi bi-memory"></i> Оперативная память
+              </h3>
+              <select id="ram-select" class="cyber-select" disabled>
+                <option value="">Сначала выберите материнскую плату</option>
+              </select>
+              <div class="component-info" id="ram-info"></div>
+            </div>
+            
+            <!-- Видеокарта -->
+            <div class="configurator-section">
+              <h3 class="section-title">
+                <i class="bi bi-gpu-card"></i> Видеокарта
+              </h3>
+              <select id="gpu-select" class="cyber-select">
+                <option value="">Выберите видеокарту (опционально)</option>
+              </select>
+              <div class="component-info" id="gpu-info"></div>
+            </div>
+            
+            <!-- Накопитель -->
+            <div class="configurator-section">
+              <h3 class="section-title">
+                <i class="bi bi-hdd"></i> Накопитель
+              </h3>
+              <select id="storage-select" class="cyber-select">
+                <option value="">Выберите накопитель</option>
+              </select>
+              <div class="component-info" id="storage-info"></div>
+            </div>
+            
+            <!-- Блок питания -->
+            <div class="configurator-section">
+              <h3 class="section-title">
+                <i class="bi bi-lightning-charge"></i> Блок питания
+              </h3>
+              <select id="psu-select" class="cyber-select" disabled>
+                <option value="">Сначала выберите другие компоненты</option>
+              </select>
+              <div class="component-info" id="psu-info"></div>
+            </div>
+            
+            <!-- Корпус -->
+            <div class="configurator-section">
+              <h3 class="section-title">
+                <i class="bi bi-pc"></i> Корпус
+              </h3>
+              <select id="case-select" class="cyber-select">
+                <option value="">Выберите корпус</option>
+              </select>
+              <div class="component-info" id="case-info"></div>
+            </div>
+            
+            <div class="configurator-actions">
+              <button id="reset-config" class="btn btn-cyber-outline">
+                <i class="bi bi-arrow-counterclockwise"></i> Сбросить
+              </button>
+              <button id="add-to-cart" class="btn btn-cyber-primary" disabled>
+                <i class="bi bi-cart-plus"></i> Добавить в корзину
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4">
+          <div class="cyber-summary">
+            <h2 class="summary-title">
+              <i class="bi bi-pc-display"></i> Ваша сборка
+            </h2>
+            
+            <div class="summary-list" id="summary-list">
+              <div class="empty-summary">
+                <i class="bi bi-pc"></i>
+                <p>Выберите компоненты для сборки</p>
+              </div>
+            </div>
+            
+            <div class="compatibility-status" id="compatibility-status">
+              <div class="status-icon">
+                <i class="bi bi-question-circle"></i>
+              </div>
+              <div class="status-text">Выберите компоненты для проверки совместимости</div>
+            </div>
+            
+            <div class="summary-total">
+              <span>Итого:</span>
+              <span id="total-price">0 BYN</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="cyber-footer py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4 mb-md-0">
+          <h3 class="footer-logo mb-3">PC Config</h3>
+          <p>Профессиональный конфигуратор ПК с проверкой совместимости компонентов</p>
+        </div>
+        <div class="col-md-2 mb-4 mb-md-0">
+          <h4 class="footer-title">Навигация</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="configurator.html">Конфигуратор</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="cart.html">Корзина</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-4 mb-md-0">
+          <h4 class="footer-title">Контакты</h4>
+          <ul class="footer-contacts">
+            <li><i class="bi bi-geo-alt"></i> г. Минск, ул. Кижеватова 76</li>
+            <li><i class="bi bi-telephone"></i> +375 (29) 132-96-67</li>
+            <li><i class="bi bi-envelope"></i> info@pcconfig.by</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h4 class="footer-title">Мы в соцсетях</h4>
+          <div class="footer-social">
+            <a href="#"><i class="bi bi-telegram"></i></a>
+            <a href="#"><i class="bi bi-vk"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr class="cyber-divider my-4">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="mb-0">&copy; 2025 PC Config. Все права защищены.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/configurator.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
