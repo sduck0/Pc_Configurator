@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components>
+     <cpu id="cpu1">
+        <name>Core i3-12100F</name>
+        <brand>Intel</brand>
+        <price>450</price>
+        <socket>LGA1700</socket>
+        <cores>4</cores>
+        <threads>8</threads>
+        <speed>3.3 GHz (4.3 GHz Turbo)</speed>
+        <description>12th Gen, 12MB Cache, 60W TDP</description>
+        <inStock>true</inStock>
+        <isNew>true</isNew>
+        <rating>4.5</rating>
+    </cpu>
+    <cpu id="cpu2">
+        <name>Core i5-12400F</name>
+        <brand>Intel</brand>
+        <price>650</price>
+        <socket>LGA1700</socket>
+        <cores>6</cores>
+        <threads>12</threads>
+        <speed>2.5 GHz (4.4 GHz Turbo)</speed>
+        <description>12th Gen, 18MB Cache, 65W TDP</description>
+        <image>intel-i5-12400f.jpg</image>
+        <inStock>true</inStock>
+        <isNew>true</isNew>
+        <rating>4.7</rating>
+    </cpu>
+    <cpu id="cpu3">
+        <name>Ryzen 5 5600</name>
+        <brand>AMD</brand>
+        <price>550</price>
+        <socket>AM4</socket>
+        <cores>6</cores>
+        <threads>12</threads>
+        <speed>3.5 GHz (4.4 GHz Turbo)</speed>
+        <description>Zen 3, 35MB Cache, 65W TDP</description>
+        <image>amd-ryzen-5-5600.jpg</image>
+        <inStock>true</inStock>
+        <isNew>false</isNew>
+        <rating>4.6</rating>
+    </cpu>
+    <cpu id="cpu4">
+        <name>Ryzen 7 5800X</name>
+        <brand>AMD</brand>
+        <price>800</price>
+        <socket>AM4</socket>
+        <cores>8</cores>
+        <threads>16</threads>
+        <speed>3.8 GHz (4.7 GHz Turbo)</speed>
+        <description>Zen 3, 36MB Cache, 105W TDP</description>
+        <image>amd-ryzen-7-5800x.jpg</image>
+        <inStock>true</inStock>
+        <isNew>false</isNew>
+        <rating>4.8</rating>
+    </cpu>
+    <cpu id="cpu5">
+        <name>Core i7-12700K</name>
+        <brand>Intel</brand>
+        <price>1200</price>
+        <socket>LGA1700</socket>
+        <cores>12</cores>
+        <threads>20</threads>
+        <speed>3.6 GHz (5.0 GHz Turbo)</speed>
+        <description>12th Gen, 25MB Cache, 125W TDP</description>
+        <image>intel-i7-12700k.jpg</image>
+        <inStock>true</inStock>
+        <isNew>false</isNew>
+        <rating>4.9</rating>
+    </cpu>
+    <cpu id="cpu6">
+        <name>Ryzen 5 7600X</name>
+        <brand>AMD</brand>
+        <price>900</price>
+        <socket>AM5</socket>
+        <cores>6</cores>
+        <threads>12</threads>
+        <speed>4.7 GHz (5.3 GHz Turbo)</speed>
+        <description>Zen 4, 38MB Cache, 105W TDP</description>
+        <image>amd-ryzen-5-7600x.jpg</image>
+        <inStock>true</inStock>
+        <isNew>true</isNew>
+        <rating>4.7</rating>
+    </cpu>
+    <cpu id="cpu7">
+        <name>Core i9-12900K</name>
+        <brand>Intel</brand>
+        <price>1800</price>
+        <socket>LGA1700</socket>
+        <cores>16</cores>
+        <threads>24</threads>
+        <speed>3.2 GHz (5.2 GHz Turbo)</speed>
+        <description>12th Gen, 30MB Cache, 125W TDP</description>
+        <image>intel-i9-12900k.jpg</image>
+        <inStock>true</inStock>
+        <isNew>false</isNew>
+        <rating>5.0</rating>
+    </cpu>
+    <cpu id="cpu8">
+        <name>Ryzen 9 5900X</name>
+        <brand>AMD</brand>
+        <price>1200</price>
+        <socket>AM4</socket>
+        <cores>12</cores>
+        <threads>24</threads>
+        <speed>3.7 GHz (4.8 GHz Turbo)</speed>
+        <description>Zen 3, 70MB Cache, 105W TDP</description>
+        <image>amd-ryzen-9-5900x.jpg</image>
+        <inStock>true</inStock>
+        <isNew>false</isNew>
+        <rating>4.9</rating>
+    </cpu>
+    <cpu id="cpu9">
+        <name>Pentium Gold G7400</name>
+        <brand>Intel</brand>
+        <price>300</price>
+        <socket>LGA1700</socket>
+        <cores>2</cores>
+        <threads>4</threads>
+        <speed>3.7 GHz</speed>
+        <description>Budget CPU with UHD Graphics 710</description>
+        <image>intel-g7400.jpg</image>
+        <inStock>true</inStock>
+        <isNew>false</isNew>
+        <rating>4.2</rating>
+    </cpu>
+    <cpu id="cpu10">
+        <name>Threadripper 3960X</name>
+        <brand>AMD</brand>
+        <price>3500</price>
+        <socket>sTRX4</socket>
+        <cores>24</cores>
+        <threads>48</threads>
+        <speed>3.8 GHz (4.5 GHz Turbo)</speed>
+        <description>Zen 2, 140MB Cache, 280W TDP</description>
+        <image>amd-threadripper-3960x.jpg</image>
+        <inStock>false</inStock>
+        <isNew>false</isNew>
+        <rating>4.9</rating>
+    </cpu>
+
+    
+      <motherboard id="mb1">
+        <name>PRIME B660M-K</name>
+        <brand>ASUS</brand>
+        <price>350</price>
+        <socket>LGA1700</socket>
+        <formFactor>Micro-ATX</formFactor>
+        <memoryType>DDR4</memoryType>
+        <memorySlots>2</memorySlots>
+        <maxMemory>64GB</maxMemory>
+        <description>Intel B660, 1x PCIe 5.0 x16, Realtek 1Gb Ethernet</description>
+        <image>asus-b660m-k.jpg</image>
+        <inStock>true</inStock>
+        <isNew>true</isNew>
+    </motherboard>
+    <motherboard id="mb2">
+        <name>TUF GAMING B660-PLUS</name>
+        <brand>ASUS</brand>
+        <price>450</price>
+        <socket>LGA1700</socket>
+        <formFactor>ATX</formFactor>
+        <memoryType>DDR4</memoryType>
+        <memorySlots>4</memorySlots>
+        <maxMemory>128GB</maxMemory>
+        <description>Intel B660, 1x PCIe 5.0 x16, 2.5Gb Ethernet</description>
+        <image>asus-b660-plus.jpg</image>
+        <inStock>true</inStock>
+        <isNew>true</isNew>
+    </motherboard>
+    <motherboard id="mb3">
+        <name>ROG STRIX Z690-F</name>
+        <brand>ASUS</brand>
+        <price>650</price>
+        <socket>LGA1700</socket>
+        <formFactor>ATX</formFactor>
+        <memoryType>DDR5</memoryType>
+        <memorySlots>4</memorySlots>
+        <maxMemory>128GB</maxMemory>
+        <description>Intel Z690, 2x PCIe 5.0 x16, Wi-Fi 6E</description>
+        <image>asus-z690-f.jpg</image>
+        <inStock>true</inStock>
+        <isNew>true</isNew>
+    </motherboard>
+    <motherboard id="mb4">
+        <name>PRIME H610M-E</name>
+        <brand>ASUS</brand>
+        <price>250</price>
+        <socket>LGA1700</socket>
+        <formFactor>Micro-ATX</formFactor>
+        <memoryType>DDR4</memoryType>
+        <memorySlots>2</memorySlots>
+        <maxMemory>64GB</maxMemory>
+        <description>Intel H610, 1x PCIe 4.0 x16, Basic connectivity</description>
+        <image>asus-h610m-e.jpg</image>
+        <inStock>true</inStock>
+        <isNew>false</isNew>
+    </motherboard>
+    <motherboard id="mb5">
+        <name>ROG MAXIMUS Z790 HERO</name>
+        <brand>ASUS</brand>
+        <price>1200</price>
+        <socket>LGA1700</socket>
+        <formFactor>ATX</formFactor>
+        <memoryType>DDR5</memoryType>
+        <memorySlots>4</memorySlots>
+        <maxMemory>128GB</maxMemory>
+        <description>Intel Z790, 3x PCIe 5.0 x16, Thunderbolt 4</description>
+        <image>asus-z790-hero.jpg</image>
+        <inStock>true</inStock>
+        <isNew>true</isNew>
+    </motherboard>
+    <motherboard id="mb6">
+        <name>TUF GAMING B550-PLUS</name>
+        <brand>ASUS</brand>
+        <price>400</price>
+        <socket>AM4</socket>
+        <formFactor>ATX</formFactor>
+        <memoryType>DDR4</memoryType>
+        <memorySlots>4</memorySlots>
+        <maxMemory>128GB</maxMemory>
+        <description>AMD B550, 2x PCIe 4.0 x16, 2.5Gb Ethernet</description>
+        <image>asus-b550-plus.jpg</image>
+        <inStock>true</inStock>
+        <isNew>false</isNew>
+    </motherboard>
+    <motherboard id="mb7">
+        <name>ROG STRIX X670E-E</name>
+        <brand>ASUS</brand>
+        <price>900</price>
+        <socket>AM5</socket>
+        <formFactor>ATX</formFactor>
+        <memoryType>DDR5</memoryType>
+        <memorySlots>4</memorySlots>
+        <maxMemory>128GB</maxMemory>
+        <description>AMD X670E, 3x PCIe 5.0 x16, Wi-Fi 6E</description>
+        <image>asus-x670e-e.jpg</image>
+        <inStock>true</inStock>
+        <isNew>true</isNew>
+    </motherboard>
+    <motherboard id="mb8">
+        <name>PRIME X570-PRO</name>
+        <brand>ASUS</brand>
+        <price>500</price>
+        <socket>AM4</socket>
+        <formFactor>ATX</formFactor>
+        <memoryType>DDR4</memoryType>
+        <memorySlots>4</memorySlots>
+        <maxMemory>128GB</maxMemory>
+        <description>AMD X570, 2x PCIe 4.0 x16, 1Gb Ethernet</description>
+        <image>asus-x570-pro.jpg</image>
+        <inStock>true</inStock>
+        <isNew>false</isNew>
+    </motherboard>
+    <motherboard id="mb9">
+        <name>ROG CROSSHAIR VIII DARK HERO</name>
+        <brand>ASUS</brand>
+        <price>800</price>
+        <socket>AM4</socket>
+        <formFactor>ATX</formFactor>
+        <memoryType>DDR4</memoryType>
+        <memorySlots>4</memorySlots>
+        <maxMemory>128GB</maxMemory>
+        <description>AMD X570, 3x PCIe 4.0 x16, 10Gb Ethernet</description>
+        <image>asus-crosshair-viii.jpg</image>
+        <inStock>false</inStock>
+        <isNew>false</isNew>
+    </motherboard>
+    <motherboard id="mb10">
+        <name>B550 TOMAHAWK</name>
+        <brand>MSI</brand>
+        <price>400</price>
+        <socket>AM4</socket>
+        <formFactor>ATX</formFactor>
+        <memoryType>DDR4</memoryType>
+        <memorySlots>4</memorySlots>
+        <maxMemory>128GB</maxMemory>
+        <description>AMD B550, 2x PCIe 4.0 x16, Wi-Fi 6</description>
+        <image>msi-b550-tomahawk.jpg</image>
+        <inStock>true</inStock>
+        <isNew>false</isNew>
+    </motherboard>
+
+     <ram id="ram1">
+        <name>FURY Beast 16GB</name>
+        <brand>Kingston</brand>
+        <price>300</price>
+        <memoryType>DDR4</memoryType>
+        <capacity>16GB 3200MHz</capacity>
+        <latency>CL16</latency>
+        <rgb>false</rgb>
+        <description>1.35V, совместимость с Intel XMP</description>
+        <image>kingston-fury-beast-16gb.jpg</image>
+        <inStock>true</inStock>
+    </ram>
+    <ram id="ram2">
+        <name>FURY Renegade 32GB</name>
+        <brand>Kingston</brand>
+        <price>600</price>
+        <memoryType>DDR4</memoryType>
+        <capacity>32GB 3600MHz</capacity>
+        <latency>CL16</latency>
+        <rgb>true</rgb>
+        <description>1.35V, RGB подсветка, Intel XMP 2.0</description>
+        <image>kingston-fury-renegade-32gb.jpg</image>
+        <inStock>true</inStock>
+    </ram>
+    <ram id="ram3">
+        <name>Vengeance LPX 16GB</name>
+        <brand>Corsair</brand>
+        <price>350</price>
+        <memoryType>DDR4</memoryType>
+        <capacity>16GB 3200MHz</capacity>
+        <latency>CL16</latency>
+        <rgb>false</rgb>
+        <description>Низкопрофильная, совместимость с Intel/AMD</description>
+        <image>corsair-vengeance-lpx-16gb.jpg</image>
+        <inStock>true</inStock>
+    </ram>
+    <ram id="ram4">
+        <name>Vengeance RGB Pro 32GB</name>
+        <brand>Corsair</brand>
+        <price>650</price>
+        <memoryType>DDR4</memoryType>
+        <capacity>32GB 3600MHz</capacity>
+        <latency>CL18</latency>
+        <rgb>true</rgb>
+        <description>Яркая RGB подсветка, Intel XMP 2.0</description>
+        <image>corsair-vengeance-rgb-32gb.jpg</image>
+        <inStock>true</inStock>
+    </ram>
+    <ram id="ram5">
+        <name>Trident Z RGB 16GB</name>
+        <brand>G.Skill</brand>
+        <price>400</price>
+        <memoryType>DDR4</memoryType>
+        <capacity>16GB 3600MHz</capacity>
+        <latency>CL16</latency>
+        <rgb>true</rgb>
+        <description>Стильная RGB подсветка, низкие тайминги</description>
+        <image>gskill-tridentz-rgb-16gb.jpg</image>
+        <inStock>true</inStock>
+    </ram>
+    <ram id="ram6">
+        <name>Trident Z5 RGB 32GB</name>
+        <brand>G.Skill</brand>
+        <price>800</price>
+        <memoryType>DDR5</memoryType>
+        <capacity>32GB 5600MHz</capacity>
+        <latency>CL36</latency>
+        <rgb>true</rgb>
+        <description>DDR5 с RGB подсветкой, Intel XMP 3.0</description>
+        <image>gskill-tridentz5-rgb-32gb.jpg</image>
+        <inStock>true</inStock>
+    </ram>
+    <ram id="ram7">
+        <name>Ballistix 16GB</name>
+        <brand>Crucial</brand>
+        <price>320</price>
+        <memoryType>DDR4</memoryType>
+        <capacity>16GB 3200MHz</capacity>
+        <latency>CL16</latency>
+        <rgb>false</rgb>
+        <description>Высокая надежность, разгонный потенциал</description>
+        <image>crucial-ballistix-16gb.jpg</image>
+        <inStock>true</inStock>
+    </ram>
+    <ram id="ram8">
+        <name>Ballistix MAX 32GB</name>
+        <brand>Crucial</brand>
+        <price>700</price>
+        <memoryType>DDR4</memoryType>
+        <capacity>32GB 4000MHz</capacity>
+        <latency>CL18</latency>
+        <rgb>true</rgb>
+        <description>Высокочастотная память с RGB подсветкой</description>
+        <image>crucial-ballistix-max-32gb.jpg</image>
+        <inStock>false</inStock>
+    </ram>
+    <ram id="ram9">
+        <name>T-Force Delta RGB 16GB</name>
+        <brand>TeamGroup</brand>
+        <price>350</price>
+        <memoryType>DDR4</memoryType>
+        <capacity>16GB 3600MHz</capacity>
+        <latency>CL18</latency>
+        <rgb>true</rgb>
+        <description>Яркая RGB подсветка, совместимость с ASUS Aura</description>
+        <image>teamgroup-delta-rgb-16gb.jpg</image>
+        <inStock>true</inStock>
+    </ram>
+    <ram id="ram10">
+        <name>T-Force Xtreem ARGB 32GB</name>
+        <brand>TeamGroup</brand>
+        <price>750</price>
+        <memoryType>DDR4</memoryType>
+        <capacity>32GB 3600MHz</capacity>
+        <latency>CL14</latency>
+        <rgb>true</rgb>
+        <description>Ультра-низкие тайминги, адресная RGB подсветка</description>
+        <image>teamgroup-xtreem-argb-32gb.jpg</image>
+        <inStock>true</inStock>
+    </ram>
+
+    <gpu id="gpu1">
+        <name>GeForce RTX 3060 Ti</name>
+        <brand>ASUS</brand>
+        <price>1200</price>
+        <chipset>NVIDIA</chipset>
+        <memory>8GB GDDR6</memory>
+        <memoryBus>256-bit</memoryBus>
+        <ports>1x HDMI 2.1, 3x DisplayPort 1.4a</ports>
+        <powerRequirement>200W</powerRequirement>
+        <description>4864 CUDA cores, Boost Clock 1665 MHz</description>
+        <image>asus-rtx-3060ti.jpg</image>
+        <inStock>false</inStock>
+    </gpu>
+    <gpu id="gpu2">
+        <name>GeForce RTX 3070</name>
+        <brand>NVIDIA</brand>
+        <price>1500</price>
+        <chipset>NVIDIA</chipset>
+        <memory>8GB GDDR6</memory>
+        <memoryBus>256-bit</memoryBus>
+        <ports>1x HDMI 2.1, 3x DisplayPort 1.4a</ports>
+        <powerRequirement>220W</powerRequirement>
+        <description>5888 CUDA cores, Boost Clock 1730 MHz</description>
+        <image>nvidia-rtx-3070.jpg</image>
+        <inStock>true</inStock>
+    </gpu>
+    <gpu id="gpu3">
+        <name>Radeon RX 6700 XT</name>
+        <brand>AMD</brand>
+        <price>1400</price>
+        <chipset>AMD</chipset>
+        <memory>12GB GDDR6</memory>
+        <memoryBus>192-bit</memoryBus>
+        <ports>1x HDMI 2.1, 3x DisplayPort 1.4</ports>
+        <powerRequirement>230W</powerRequirement>
+        <description>2560 Stream processors, Boost Clock 2424 MHz</description>
+        <image>amd-rx-6700-xt.jpg</image>
+        <inStock>true</inStock>
+    </gpu>
+    <gpu id="gpu4">
+        <name>GeForce RTX 3080</name>
+        <brand>NVIDIA</brand>
+        <price>2000</price>
+        <chipset>NVIDIA</chipset>
+        <memory>10GB GDDR6X</memory>
+        <memoryBus>320-bit</memoryBus>
+        <ports>1x HDMI 2.1, 3x DisplayPort 1.4a</ports>
+        <powerRequirement>320W</powerRequirement>
+        <description>8704 CUDA cores, Boost Clock 1710 MHz</description>
+        <image>nvidia-rtx-3080.jpg</image>
+        <inStock>false</inStock>
+    </gpu>
+    <gpu id="gpu5">
+        <name>Radeon RX 6800</name>
+        <brand>AMD</brand>
+        <price>1800</price>
+        <chipset>AMD</chipset>
+        <memory>16GB GDDR6</memory>
+        <memoryBus>256-bit</memoryBus>
+        <ports>1x HDMI 2.1, 3x DisplayPort 1.4</ports>
+        <powerRequirement>250W</powerRequirement>
+        <description>3840 Stream processors, Boost Clock 2105 MHz</description>
+        <image>amd-rx-6800.jpg</image>
+        <inStock>true</inStock>
+    </gpu>
+    <gpu id="gpu6">
+        <name>GeForce RTX 3090</name>
+        <brand>NVIDIA</brand>
+        <price>3000</price>
+        <chipset>NVIDIA</chipset>
+        <memory>24GB GDDR6X</memory>
+        <memoryBus>384-bit</memoryBus>
+        <ports>1x HDMI 2.1, 3x DisplayPort 1.4a</ports>
+        <powerRequirement>350W</powerRequirement>
+        <description>10496 CUDA cores, Boost Clock 1695 MHz</description>
+        <image>nvidia-rtx-3090.jpg</image>
+        <inStock>false</inStock>
+    </gpu>
+    <gpu id="gpu7">
+        <name>GeForce GTX 1660 Super</name>
+        <brand>NVIDIA</brand>
+        <price>800</price>
+        <chipset>NVIDIA</chipset>
+        <memory>6GB GDDR6</memory>
+        <memoryBus>192-bit</memoryBus>
+        <ports>1x HDMI 2.0, 1x DisplayPort 1.4</ports>
+        <powerRequirement>125W</powerRequirement>
+        <description>1408 CUDA cores, Boost Clock 1785 MHz</description>
+        <image>nvidia-gtx-1660-super.jpg</image>
+        <inStock>true</inStock>
+    </gpu>
+    <gpu id="gpu8">
+        <name>Radeon RX 6600 XT</name>
+        <brand>AMD</brand>
+        <price>900</price>
+        <chipset>AMD</chipset>
+        <memory>8GB GDDR6</memory>
+        <memoryBus>128-bit</memoryBus>
+        <ports>1x HDMI 2.1, 3x DisplayPort 1.4</ports>
+        <powerRequirement>160W</powerRequirement>
+        <description>2048 Stream processors, Boost Clock 2589 MHz</description>
+        <image>amd-rx-6600-xt.jpg</image>
+        <inStock>true</inStock>
+    </gpu>
+    <gpu id="gpu9">
+        <name>GeForce RTX 3050</name>
+        <brand>NVIDIA</brand>
+        <price>1000</price>
+        <chipset>NVIDIA</chipset>
+        <memory>8GB GDDR6</memory>
+        <memoryBus>128-bit</memoryBus>
+        <ports>1x HDMI 2.1, 3x DisplayPort 1.4</ports>
+        <powerRequirement>130W</powerRequirement>
+        <description>2560 CUDA cores, Boost Clock 1777 MHz</description>
+        <image>nvidia-rtx-3050.jpg</image>
+        <inStock>true</inStock>
+    </gpu>
+    <gpu id="gpu10">
+        <name>Radeon RX 6500 XT</name>
+        <brand>AMD</brand>
+        <price>600</price>
+        <chipset>AMD</chipset>
+        <memory>4GB GDDR6</memory>
+        <memoryBus>64-bit</memoryBus>
+        <ports>1x HDMI 2.1, 1x DisplayPort 1.4</ports>
+        <powerRequirement>107W</powerRequirement>
+        <description>1024 Stream processors, Boost Clock 2815 MHz</description>
+        <image>amd-rx-6500-xt.jpg</image>
+        <inStock>true</inStock>
+    </gpu>
+
+    <storage id="storage1">
+        <name>980 Pro 1TB</name>
+        <brand>Samsung</brand>
+        <price>450</price>
+        <capacity>1TB</capacity>
+        <type>NVMe SSD</type>
+        <interface>PCIe 4.0 x4</interface>
+        <readSpeed>7000 MB/s</readSpeed>
+        <writeSpeed>5000 MB/s</writeSpeed>
+        <description>M.2 2280, 5-year warranty</description>
+        <image>samsung-980-pro-1tb.jpg</image>
+        <inStock>true</inStock>
+    </storage>
+    <storage id="storage2">
+        <name>WD Black SN850 1TB</name>
+        <brand>Western Digital</brand>
+        <price>500</price>
+        <capacity>1TB</capacity>
+        <type>NVMe SSD</type>
+        <interface>PCIe 4.0 x4</interface>
+        <readSpeed>7000 MB/s</readSpeed>
+        <writeSpeed>5300 MB/s</writeSpeed>
+        <description>M.2 2280, 5-year warranty</description>
+        <image>wd-black-sn850-1tb.jpg</image>
+        <inStock>true</inStock>
+    </storage>
+    <storage id="storage3">
+        <name>Crucial P5 Plus 1TB</name>
+        <brand>Crucial</brand>
+        <price>400</price>
+        <capacity>1TB</capacity>
+        <type>NVMe SSD</type>
+        <interface>PCIe 4.0 x4</interface>
+        <readSpeed>6600 MB/s</readSpeed>
+        <writeSpeed>5000 MB/s</writeSpeed>
+        <description>M.2 2280, 5-year warranty</description>
+        <image>crucial-p5-plus-1tb.jpg</image>
+        <inStock>true</inStock>
+    </storage>
+    <storage id="storage4">
+        <name>Sabrent Rocket 1TB</name>
+        <brand>Sabrent</brand>
+        <price>450</price>
+        <capacity>1TB</capacity>
+        <type>NVMe SSD</type>
+        <interface>PCIe 4.0 x4</interface>
+        <readSpeed>5000 MB/s</readSpeed>
+        <writeSpeed>4500 MB/s</writeSpeed>
+        <description>M.2 2280, 5-year warranty</description>
+        <image>sabrent-rocket-1tb.jpg</image>
+        <inStock>true</inStock>
+    </storage>
+    <storage id="storage5">
+        <name>Samsung 870 EVO 1TB</name>
+        <brand>Samsung</brand>
+        <price>350</price>
+        <capacity>1TB</capacity>
+        <type>SATA SSD</type>
+        <interface>SATA III</interface>
+        <readSpeed>560 MB/s</readSpeed>
+        <writeSpeed>530 MB/s</writeSpeed>
+        <description>2.5-inch, 5-year warranty</description>
+        <image>samsung-870-evo-1tb.jpg</image>
+        <inStock>true</inStock>
+    </storage>
+    <storage id="storage6">
+        <name>Crucial MX500 1TB</name>
+        <brand>Crucial</brand>
+        <price>300</price>
+        <capacity>1TB</capacity>
+        <type>SATA SSD</type>
+        <interface>SATA III</interface>
+        <readSpeed>550 MB/s</readSpeed>
+        <writeSpeed>500 MB/s</writeSpeed>
+        <description>2.5-inch, 5-year warranty</description>
+        <image>crucial-mx500-1tb.jpg</image>
+        <inStock>true</inStock>
+    </storage>
+    <storage id="storage7">
+        <name>WD Blue 1TB</name>
+        <brand>Western Digital</brand>
+        <price>250</price>
+        <capacity>1TB</capacity>
+        <type>SATA HDD</type>
+        <interface>SATA III</interface>
+        <readSpeed>150 MB/s</readSpeed>
+        <writeSpeed>150 MB/s</writeSpeed>
+        <description>3.5-inch, 2-year warranty</description>
+        <image>wd-blue-1tb.jpg</image>
+        <inStock>true</inStock>
+    </storage>
+    <storage id="storage8">
+        <name>Toshiba X300 1TB</name>
+        <brand>Toshiba</brand>
+        <price>200</price>
+        <capacity>1TB</capacity>
+        <type>SATA HDD</type>
+        <interface>SATA III</interface>
+        <readSpeed>150 MB/s</readSpeed>
+        <writeSpeed>150 MB/s</writeSpeed>
+        <description>3.5-inch, 2-year warranty</description>
+        <image>toshiba-x300-1tb.jpg</image>
+        <inStock>true</inStock>
+    </storage>
+    <storage id="storage9">
+        <name>Seagate Barracuda 1TB</name>
+        <brand>Seagate</brand>
+        <price>220</price>
+        <capacity>1TB</capacity>
+        <type>SATA HDD</type>
+        <interface>SATA III</interface>
+        <readSpeed>150 MB/s</readSpeed>
+        <writeSpeed>150 MB/s</writeSpeed>
+        <description>3.5-inch, 2-year warranty</description>
+        <image>seagate-barracuda-1tb.jpg</image>
+        <inStock>true</inStock>
+    </storage>
+    <storage id="storage10">
+        <name>HGST Deskstar 1TB</name>
+        <brand>HGST</brand>
+        <price>210</price>
+        <capacity>1TB</capacity>
+        <type>SATA HDD</type>
+        <interface>SATA III</interface>
+        <readSpeed>150 MB/s</readSpeed>
+        <writeSpeed>150 MB/s</writeSpeed>
+        <description>3.5-inch, 2-year warranty</description>
+        <image>hgst-deskstar-1tb.jpg</image>
+        <inStock>true</inStock>
+    </storage>
+
+    xml
+
+Copy
+    <psu id="psu1">
+        <name>RM850x</name>
+        <brand>Corsair</brand>
+        <price>600</price>
+        <wattage>850</wattage>
+        <efficiency>80+ Gold</efficiency>
+        <modular>Full</modular>
+        <description>135mm fan, Zero RPM mode, 10-year warranty</description>
+        <image>corsair-rm850x.jpg</image>
+        <inStock>true</inStock>
+    </psu>
+    <psu id="psu2">
+        <name>Seasonic Focus GX-850</name>
+        <brand>Seasonic</brand>
+        <price>700</price>
+        <wattage>850</wattage>
+        <efficiency>80+ Gold</efficiency>
+        <modular>Full</modular>
+        <description>Compact size, 10-year warranty</description>
+        <image>seasonic-focus-gx-850.jpg</image>
+        <inStock>true</inStock>
+    </psu>
+    <psu id="psu3">
+        <name>EVGA SuperNOVA 750 G5</name>
+        <brand>EVGA</brand>
+        <price>550</price>
+        <wattage>750</wattage>
+        <efficiency>80+ Gold</efficiency>
+        <modular>Full</modular>
+        <description>Eco Mode, 7-year warranty</description>
+        <image>evga-supernova-750-g5.jpg</image>
+        <inStock>true</inStock>
+    </psu>
+    <psu id="psu4">
+        <name>Cooler Master V850 SFX</name>
+        <brand>Cooler Master</brand>
+        <price>600</price>
+        <wattage>850</wattage>
+        <efficiency>80+ Gold</efficiency>
+        <modular>Full</modular>
+        <description>Compact SFX form factor, 10-year warranty</description>
+        <image>cooler-master-v850-sfx.jpg</image>
+        <inStock>true</inStock>
+    </psu>
+    <psu id="psu5">
+        <name>Thermaltake Toughpower GF1 750W</name>
+        <brand>Thermaltake</brand>
+        <price>500</price>
+        <wattage>750</wattage>
+        <efficiency>80+ Gold</efficiency>
+        <modular>Full</modular>
+        <description>Smart fan control, 10-year warranty</description>
+        <image>thermaltake-toughpower-gf1-750.jpg</image>
+        <inStock>true</inStock>
+    </psu>
+    <psu id="psu6">
+        <name>Gigabyte P850W</name>
+        <brand>Gigabyte</brand>
+        <price>550</price>
+        <wattage>850</wattage>
+        <efficiency>80+ Gold</efficiency>
+        <modular>Full</modular>
+        <description>Smart fan control, 5-year warranty</description>
+        <image>gigabyte-p850w.jpg</image>
+        <inStock>true</inStock>
+    </psu>
+    <psu id="psu7">
+        <name>be quiet! Straight Power 11 750W</name>
+        <brand>be quiet!</brand>
+        <price>600</price>
+        <wattage>750</wattage>
+        <efficiency>80+ Platinum</efficiency>
+        <modular>Full</modular>
+        <description>Silent operation, 5-year warranty</description>
+        <image>be-quiet-straight-power-11-750.jpg</image>
+        <inStock>true</inStock>
+    </psu>
+    <psu id="psu8">
+        <name>XPG Pylon 750W</name>
+        <brand>XPG</brand>
+        <price>500</price>
+        <wattage>750</wattage>
+        <efficiency>80+ Gold</efficiency>
+        <modular>Full</modular>
+        <description>Smart fan control, 5-year warranty</description>
+        <image>xpg-pylon-750.jpg</image>
+        <inStock>true</inStock>
+    </psu>
+    <psu id="psu9">
+        <name>FSP Hydro G Pro 850W</name>
+        <brand>FSP</brand>
+        <price>650</price>
+        <wattage>850</wattage>
+        <efficiency>80+ Gold</efficiency>
+        <modular>Full</modular>
+        <description>Compact design, 5-year warranty</description>
+        <image>fsp-hydro-g-pro-850.jpg</image>
+        <inStock>true</inStock>
+    </psu>
+    <psu id="psu10">
+        <name>Super Flower Leadex III 850W</name>
+        <brand>Super Flower</brand>
+        <price>600</price>
+        <wattage>850</wattage>
+        <efficiency>80+ Gold</efficiency>
+        <modular>Full</modular>
+        <description>High performance, 5-year warranty</description>
+        <image>super-flower-leadex-iii-850.jpg</image>
+        <inStock>true</inStock>
+    </psu>
+
+    <case id="case1">
+        <name>4000D Airflow</name>
+        <brand>Corsair</brand>
+        <price>250</price>
+        <formFactor>ATX</formFactor>
+        <sidePanel>Glass</sidePanel>
+        <fans>2x 120mm</fans>
+        <radiatorSupport>360mm</radiatorSupport>
+        <description>Steel construction, dust filters</description>
+        <image>corsair-4000d-airflow.jpg</image>
+        <inStock>true</inStock>
+    </case>
+    <case id="case2">
+        <name>NZXT H510</name>
+        <brand>NZXT</brand>
+        <price>200</price>
+        <formFactor>ATX</formFactor>
+        <sidePanel>Glass</sidePanel>
+        <fans>2x 120mm</fans>
+        <radiatorSupport>280mm</radiatorSupport>
+        <description>Minimalist design, cable management</description>
+        <image>nzxt-h510.jpg</image>
+        <inStock>true</inStock>
+    </case>
+    <case id="case3">
+        <name>Fractal Design Meshify C</name>
+        <brand>Fractal Design</brand>
+        <price>150</price>
+        <formFactor>ATX</formFactor>
+        <sidePanel>Glass</sidePanel>
+        <fans>2x 120mm</fans>
+        <radiatorSupport>360mm</radiatorSupport>
+        <description>High airflow, compact design</description>
+        <image>fractal-design-meshify-c.jpg</image>
+        <inStock>true</inStock>
+    </case>
+    <case id="case4">
+        <name>Cooler Master MasterBox Q300L</name>
+        <brand>Cooler Master</brand>
+        <price>80</price>
+        <formFactor>Micro-ATX</formFactor>
+        <sidePanel>Glass</sidePanel>
+        <fans>1x 120mm</fans>
+        <radiatorSupport>240mm</radiatorSupport>
+        <description>Compact and versatile, customizable layout</description>
+        <image>cooler-master-q300l.jpg</image>
+        <inStock>true</inStock>
+    </case>
+    <case id="case5">
+        <name>Thermaltake Versa H15</name>
+        <brand>Thermaltake</brand>
+        <price>70</price>
+        <formFactor>Micro-ATX</formFactor>
+        <sidePanel>Steel</sidePanel>
+        <fans>1x 120mm</fans>
+        <radiatorSupport>240mm</radiatorSupport>
+        <description>Compact with great airflow</description>
+        <image>thermaltake-versa-h15.jpg</image>
+        <inStock>true</inStock>
+    </case>
+    <case id="case6">
+        <name>be quiet! Pure Base 500DX</name>
+        <brand>be quiet!</brand>
+        <price>150</price>
+        <formFactor>ATX</formFactor>
+        <sidePanel>Glass</sidePanel>
+        <fans>3x 120mm</fans>
+        <radiatorSupport>360mm</radiatorSupport>
+        <description>Silent operation with high airflow</description>
+        <image>be-quiet-pure-base-500dx.jpg</image>
+        <inStock>true</inStock>
+    </case>
+    <case id="case7">
+        <name>Phanteks Eclipse P400A</name>
+        <brand>Phanteks</brand>
+        <price>120</price>
+        <formFactor>ATX</formFactor>
+        <sidePanel>Glass</sidePanel>
+        <fans>2x 120mm</fans>
+        <radiatorSupport>360mm</radiatorSupport>
+        <description>Stylish design with great airflow</description>
+        <image>phanteks-eclipse-p400a.jpg</image>
+        <inStock>true</inStock>
+    </case>
+    <case id="case8">
+        <name>SilverStone RL06</name>
+        <brand>SilverStone</brand>
+        <price>130</price>
+        <formFactor>ATX</formFactor>
+        <sidePanel>Glass</sidePanel>
+        <fans>3x 120mm</fans>
+        <radiatorSupport>360mm</radiatorSupport>
+        <description>High-performance airflow design</description>
+        <image>silverstone-rl06.jpg</image>
+        <inStock>true</inStock>
+    </case>
+    <case id="case9">
+        <name>Cooler Master HAF 912</name>
+        <brand>Cooler Master</brand>
+        <price>100</price>
+        <formFactor>ATX</formFactor>
+        <sidePanel>Steel</sidePanel>
+        <fans>2x 120mm</fans>
+        <radiatorSupport>240mm</radiatorSupport>
+        <description>Versatile layout and great airflow</description>
+        <image>cooler-master-haf-912.jpg</image>
+        <inStock>true</inStock>
+    </case>
+    <case id="case10">
+        <name>Fractal Design Define R5</name>
+        <brand>Fractal Design</brand>
+        <price>150</price>
+        <formFactor>ATX</formFactor>
+        <sidePanel>Glass</sidePanel>
+        <fans>2x 140mm</fans>
+        <radiatorSupport>420mm</radiatorSupport>
+        <description>Sound-dampening design, flexible layout</description>
+        <image>fractal-design-define-r5.jpg</image>
+        <inStock>true</inStock>
+    </case>
+
+</components>
