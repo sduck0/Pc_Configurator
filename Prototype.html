@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Config | Прототип</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <style>
+        /* Простые стили для прототипа */
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            background-color: #343a40;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            display: inline-block;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        /* Стили для главной страницы */
+        .hero {
+            background-color: #e9ecef;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .build-card {
+            border: 1px solid #ccc;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            background-color: white;
+        }
+
+        /* Стили для каталога */
+        .catalog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .product-card {
+            border: 1px solid #ccc;
+            padding: 1rem;
+            background-color: white;
+        }
+
+        /* Стили для конфигуратора */
+        .component-section {
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            padding: 1rem;
+            background-color: white;
+        }
+
+        .component-section h3 {
+            margin-top: 0;
+        }
+
+        select {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .summary {
+            border: 1px solid #ccc;
+            padding: 1rem;
+            background-color: white;
+        }
+
+        .summary h2 {
+            margin-top: 0;
+        }
+
+        .summary-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.3rem;
+        }
+
+        /* Стили для корзины */
+        .cart-items {
+            border: 1px solid #ccc;
+            padding: 1rem;
+            background-color: white;
+        }
+
+        .cart-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 1rem;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>PC Config</h1>
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="configurator.html">Конфигуратор</a>
+        <a href="catalog.html">Каталог</a>
+        <a href="cart.html">Корзина</a>
+        <a href="contacts.html">Контакты</a>
+    </nav>
+</header>
+
+<main>
+    <!-- Главная страница (index.html) -->
+    <div id="index" style="display: none;">
+        <div class="hero">
+            <h2>Собери свой идеальный ПК</h2>
+            <p>Профессиональный конфигуратор для подбора совместимых компонентов</p>
+            <a href="configurator.html" class="btn btn-primary">Начать сборку</a>
+        </div>
+
+        <h3>Популярные сборки</h3>
+        <div class="build-card">
+            <h4>Офисный ПК</h4>
+            <p>Intel Core i3, 8GB RAM, 256GB SSD</p>
+            <a href="configurator.html?preset=office" class="btn btn-secondary">Собрать</a>
+        </div>
+
+        <div class="build-card">
+            <h4>Игровой ПК</h4>
+            <p>AMD Ryzen 5, 16GB RAM, GeForce RTX 3060</p>
+            <a href="configurator.html?preset=gaming" class="btn btn-secondary">Собрать</a>
+        </div>
+    </div>
+
+    <!-- Каталог (catalog.html) -->
+    <div id="catalog" style="display: none;">
+        <h2>Каталог комплектующих</h2>
+        <div class="catalog-grid">
+            <div class="product-card">
+                <h4>Процессор Intel Core i5</h4>
+                <p>Цена: 15000 руб.</p>
+                <button class="btn btn-sm btn-outline-secondary">В корзину</button>
+            </div>
+            <div class="product-card">
+                <h4>Материнская плата ASUS B450</h4>
+                <p>Цена: 10000 руб.</p>
+                <button class="btn btn-sm btn-outline-secondary">В корзину</button>
+            </div>
+            </div>
+    </div>
+
+    <!-- Конфигуратор (configurator.html) -->
+    <div id="configurator" style="display: none;">
+        <h2>Конфигуратор ПК</h2>
+
+        <div class="row">
+            <div class="col-md-8">
+                <div class="component-section">
+                    <h3><i class="bi bi-cpu"></i> Процессор</h3>
+                    <select id="cpu-select">
+                        <option value="">Выберите процессор</option>
+                        <option value="intel-i5">Intel Core i5</option>
+                        <option value="amd-ryzen5">AMD Ryzen 5</option>
+                    </select>
+                </div>
+
+                <div class="component-section">
+                    <h3><i class="bi bi-motherboard"></i> Материнская плата</h3>
+                    <select id="motherboard-select">
+                        <option value="">Выберите материнскую плату</option>
+                        <option value="asus-b450">ASUS B450</option>
+                        <option value="msi-x570">MSI X570</option>
+                    </select>
+                </div>
+
+                <div class="component-section">
+                    <h3><i class="bi bi-memory"></i> Оперативная память</h3>
+                    <select id="ram-select">
+                        <option value="">Выберите оперативную память</option>
+                        <option value="16gb">16GB DDR4</option>
+                        <option value="32gb">32GB DDR4</option>
+                    </select>
+                </div>
+
+                <button class="btn btn-primary">Добавить в корзину</button>
+            </div>
+
+            <div class="col-md-4">
+                <div class="summary">
+                    <h2>Сборка</h2>
+                    <div id="summary-list">
+                        <p>Выберите компоненты для отображения</p>
+                    </div>
+                    <hr>
+                    <div class="summary-item">
+                        <span>Итого:</span>
+                        <span id="total-price">0 руб.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Корзина (cart.html) -->
+    <div id="cart" style="display: none;">
+        <h2>Корзина</h2>
+        <div class="cart-items">
+            <div class="cart-item">
+                <div>Процессор Intel Core i5</div>
+                <div>15000 руб.</div>
+            </div>
+            <div class="cart-item">
+                <div>Материнская плата ASUS B450</div>
+                <div>10000 руб.</div>
+            </div>
+        </div>
+        <div>
+            <strong>Итого: 25000 руб.</strong>
+        </div>
+        <button class="btn btn-success">Оформить заказ</button>
+    </div>
+
+    <!-- Контакты (contacts.html) -->
+    <div id="contacts" style="display: none;">
+        <h2>Контакты</h2>
+        <p>г. Минск, ул. Кижеватова 76</p>
+        <p>+375 (29) 123-45-67</p>
+        <p>info@pcconfig.by</p>
+    </div>
+</main>
+
+<footer>
+    &copy; 2025 PC Config. Все права защищены.
+</footer>
+
+<script>
+    // JavaScript для прототипа
+    function showPage(pageId) {
+        const pages = ['index', 'catalog', 'configurator', 'cart', 'contacts'];
+        pages.forEach(page => {
+            document.getElementById(page).style.display = 'none';
+        });
+        document.getElementById(pageId).style.display = 'block';
+    }
+
+    // Функция для получения параметра из URL
+    function getParameterByName(name, url = window.location.href) {
+        name = name.replace(/[\[\]]/g, '\\$&');
+        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+    }
+
+    // Обработчики событий для навигации
+    document.querySelector('nav a[href="index.html"]').addEventListener('click', function(e) {
+        e.preventDefault();
+        showPage('index');
+    });
+
+    document.querySelector('nav a[href="catalog.html"]').addEventListener('click', function(e) {
+        e.preventDefault();
+        showPage('catalog');
+    });
+
+    document.querySelector('nav a[href="configurator.html"]').addEventListener('click', function(e) {
+        e.preventDefault();
+        showPage('configurator');
+    });
+
+    document.querySelector('nav a[href="cart.html"]').addEventListener('click', function(e) {
+        e.preventDefault();
+        showPage('cart');
+    });
+
+    document.querySelector('nav a[href="contacts.html"]').addEventListener('click', function(e) {
+        e.preventDefault();
+        showPage('contacts');
+    });
+
+    // Отображение страницы по умолчанию (главная)
+    var page = getParameterByName('page');
+    if (page) {
+        showPage(page);
+    } else {
+        showPage('index');
+    }
+
+    // Конфигуратор
+    const cpuSelect = document.getElementById('cpu-select');
+    const motherboardSelect = document.getElementById('motherboard-select');
+    const ramSelect = document.getElementById('ram-select');
+    const summaryList = document.getElementById('summary-list');
+    const totalPriceElement = document.getElementById('total-price');
+
+    function updateSummary() {
+        summaryList.innerHTML = '';
+        let totalPrice = 0;
+
+        function addItem(name, price) {
+            const itemElement = document.createElement('div');
+            itemElement.className = 'summary-item';
+            itemElement.innerHTML = `<span>${name}</span><span>${price} руб.</span>`;
+            summaryList.appendChild(itemElement);
+            totalPrice += price;
+        }
+
+        if (cpuSelect.value) {
+            const cpuName = cpuSelect.options[cpuSelect.selectedIndex].text;
+            addItem(cpuName, 15000); // Пример цены
+        }
+
+        if (motherboardSelect.value) {
+            const mbName = motherboardSelect.options[motherboardSelect.selectedIndex].text;
+            addItem(mbName, 10000); // Пример цены
+        }
+
+        if (ramSelect.value) {
+            const ramName = ramSelect.options[ramSelect.selectedIndex].text;
+            addItem(ramName, 8000); // Пример цены
+        }
+
+        if (!cpuSelect.value && !motherboardSelect.value && !ramSelect.value) {
+            summaryList.innerHTML = '<p>Выберите компоненты для отображения</p>';
+        }
+
+        totalPriceElement.textContent = totalPrice + ' руб.';
+    }
+
+    cpuSelect.addEventListener('change', updateSummary);
+    motherboardSelect.addEventListener('change', updateSummary);
+    ramSelect.addEventListener('change', updateSummary);
+</script>
+
+</body>
+</html>
