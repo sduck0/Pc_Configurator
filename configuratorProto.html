@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Config | Конфигуратор</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>PC Config</h1>
+    <nav>
+        <a href="indexProto.html">Главная</a>
+        <a href="configuratorProto.html">Конфигуратор</a>
+        <a href="catalogProto.html">Каталог</a>
+        <a href="cartProto.html">Корзина</a>
+        <a href="contactsProto.html">Контакты</a>
+    </nav>
+</header>
+
+<main>
+    <h2>Конфигуратор ПК</h2>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="component-section">
+                <h3><i class="bi bi-cpu"></i> Процессор</h3>
+                <select id="cpu-select">
+                    <option value="">Выберите процессор</option>
+                    <option value="intel-i5">Intel Core i5</option>
+                    <option value="amd-ryzen5">AMD Ryzen 5</option>
+                </select>
+            </div>
+            <div class="component-section">
+                <h3><i class="bi bi-motherboard"></i> Материнская плата</h3>
+                <select id="motherboard-select">
+                    <option value="">Выберите материнскую плату</option>
+                    <option value="asus-b450">ASUS B450</option>
+                    <option value="msi-x570">MSI X570</option>
+                </select>
+            </div>
+            <div class="component-section">
+                <h3><i class="bi bi-memory"></i> Оперативная память</h3>
+                <select id="ram-select">
+                    <option value="">Выберите оперативную память</option>
+                    <option value="16gb">16GB DDR4</option>
+                    <option value="32gb">32GB DDR4</option>
+                </select>
+            </div>
+            <button class="btn btn-primary">Добавить в корзину</button>
+        </div>
+
+        <div class="col-md-4">
+            <div class="summary">
+                <h2>Сборка</h2>
+                <div id="summary-list">
+                    <p>Выберите компоненты для отображения</p>
+                </div>
+                <hr>
+                <div class="summary-item">
+                    <span>Итого:</span>
+                    <span id="total-price">0 руб.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    &copy; 2025 PC Config. Все права защищены.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
